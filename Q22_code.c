@@ -16,7 +16,7 @@ int main() {
         printf("You incurred a loss of: %.2f\n", loss);
         printf("Loss Percentage: %.2f%%\n", (loss / costPrice) * 100);
     } else {
-        printf("No profit, no loss.\n");
+        printf("No profit or no loss.\n");
     }
     
     return 0;
