@@ -4,7 +4,7 @@
 #include <string.h>
 
 int main() {
-    char date[11];   
+    char date[11];   ;
     char day[3], month[3], year[5];
 
     printf("Enter date in dd/04/yyyy format: ");

@@ -30,7 +30,7 @@ int main() {
 
     
     for(i = rows - 1; i >= 1; i--) {
-        // Print spaces
+        
         for(space = 1; space <= rows - i; space++) {
             printf(" ");
         }

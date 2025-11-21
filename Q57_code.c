@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main() {
-    int array[] = {1, 2, 3, 4, 5};  // Example array
+    int array[] = {1, 2, 3, 4, 5}; 
     int sum = 0;
     int size = sizeof(array) / sizeof(array[0]); 
 

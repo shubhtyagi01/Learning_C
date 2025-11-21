@@ -27,7 +27,7 @@ int main() {
         printf("\n");
     }
 
-    // Bottom half
+    
     for(i = rows - 1; i >= 1; i--) {
         
         for(space = 1; space <= rows - i; space++) {
