@@ -1,28 +1,30 @@
-#include <stdio.h>
+//Use pointer to struct to modify and display data using -> operator.
 
+
+#include <stdio.h>
 
 struct Student {
     int id;
     float marks;
-    char name[20];
 };
 
 int main() {
-    struct Student s1 = {101, 88.5, "Alice"};
+    
+    struct Student s1;
+
+    
     struct Student *ptr;
 
     
     ptr = &s1;
 
     
-    ptr->id = 202;
-    ptr->marks = 92.7;
+    ptr->id = 101;
+    ptr->marks = 88.5;
+
     
-    
-    printf("Student Details:\n");
-    printf("ID: %d\n", ptr->id);
-    printf("Name: %s\n", ptr->name);
-    printf("Marks: %.2f\n", ptr->marks);
+    printf("Student ID    : %d\n", ptr->id);
+    printf("Student Marks : %.2f\n", ptr->marks);
 
     return 0;
 }
